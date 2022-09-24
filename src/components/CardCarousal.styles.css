@@ -1,0 +1,38 @@
+.caraousel {
+	overflow: hidden;
+}
+
+.wrapper {
+	display: flex;
+	transition: transform 700ms ease-in-out;
+	width: 100vw;
+	/*overflow-x: hidden;*/
+}
+
+.card-container {
+	min-width: calc(100% - 20px);
+	margin: 0 10px;
+}
+
+.card {
+	width: 70%;
+	margin: auto;
+}
+
+.indicators {
+	display: flex;
+	justify-content: center;
+}
+
+.indicators > button {
+	background-color: transparent;
+	border: 1px solid #323232;
+	color: #323232;
+	padding: 5px;
+	margin: 0 5px;
+}
+
+.indicators > button:hover {
+	background-color: #323232;
+	color: #f4f4f4;
+}
